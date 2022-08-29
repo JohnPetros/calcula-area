@@ -1,0 +1,26 @@
+.container-result {
+  min-width: 40%;
+  height: 425px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--secondary-color);
+  box-shadow: 3px 3px 3px var(--primary-color);
+  border-radius: 10px;
+  font-size: 2.1rem;
+}
+
+.container-result .geometric-shape {
+  transition: all .5s ease;
+  width: 220px;
+  stroke: var(--primary-color);
+  stroke-width: 10px;
+  fill: none;
+}
+
+.container-result .button {
+  width: 65%;
+  margin-top: 5px;
+}

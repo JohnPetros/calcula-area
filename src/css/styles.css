@@ -1,0 +1,130 @@
+:root {
+  --primary-color: #ffff66;
+  --secondary-color: #140a11;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+body {
+  background: linear-gradient(90deg, #310b27 0%, #3d0e30 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  background-color: var(--secondary-color);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border-bottom: solid 2px var(--primary-color);
+}
+
+main {
+  margin: 150px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-controls {
+  background-color: var(--secondary-color); 
+  max-width: 30%;
+  height: 400px;
+  padding: 30px;
+  font-size: 2.1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 3px var(--primary-color);
+}
+
+.container-controls .controls {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.container-controls .controls .control {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.container-controls .controls .control input {
+  height: 50px;
+  width: 200px;
+  font-size: 2rem;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: inherit;
+}
+
+.container-controls .controls .control input:focus {
+  outline: solid 2px var(--primary-color);
+}
+
+.container-controls .controls .control input::placeholder {
+  color: var(--primary-color);
+}
+
+.container-result {
+  background-color: var(--secondary-color); 
+  min-width: 40%;
+}
+
+.button {
+  width: 50%;
+  background-color: inherit;
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px var(--primary-color);
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: none;
+}
+
+.container-result {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color); 
+  box-shadow: 3px 3px 3px var(--primary-color);
+  border-radius: 10px;
+}
+
+.container-result .geometric {
+    color: var(--primary-color);
+    font-size: 20rem;
+}
+
+.container-result .result {
+    font-size: 2rem;
+}
+
+.container-result .button {
+    width: 65%;
+}

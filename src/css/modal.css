@@ -1,0 +1,98 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000090;
+  opacity: 0;
+  z-index: -1;
+}
+
+.modal.active {
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  z-index: 5;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 15vh auto;
+  background-color: var(--secondary-color);
+  padding-bottom: 40px;
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+.modal-header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  line-height: 40px;
+  font-size: 2rem;
+}
+
+.modal-close {
+  position: absolute;
+  right: 0;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: 4.5rem;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.modal-close:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.modal-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.modal-options .option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    width: 40%;
+
+}
+
+.modal-options .option .geometric-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modal-options .option .radio {
+  min-width: 50px;
+  height: 50px;
+  background-color: var(--primary-color);
+}
+
+.modal-options .option .geometric-shape {
+  width: 30%;   
+}
+
+.modal-container .button {
+  font-size: 2.8rem;
+}

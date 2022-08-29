@@ -1,0 +1,103 @@
+@media (max-width: 1030px) {
+  .modal-options {
+    font-size: 2rem;
+  }
+  .modal-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 850px) {
+  * {
+    font-size: 2.2rem;
+  }
+
+  .container-content {
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 30px;
+  }
+  .button {
+    font-size: 1.5rem;
+  }
+
+  .container-controls {
+    height: 320px;
+  padding: 15px;
+
+  }
+
+  .container-controls .controls .control input {
+    height: 50px;
+    width: 100px;
+  }
+
+  .container-result {
+    height: 320px;
+  }
+  
+  .container-result .result {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+
+  }
+
+  .container-result .geometric-shape {
+    width: 150px;
+  }
+
+  
+
+  .modal-header {
+    font-size: 1.5rem;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .modal-close {
+    width: 40px;
+    font-size: 3rem;
+  }
+
+  .modal-options {
+    font-size: 3rem;
+    padding: 30px 0;
+  }
+  .modal-options .option .radio {
+    width: 30px;
+    height: 30px;
+  }
+  .modal-container .button, span {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 430px) {
+  .modal-header h2 {
+    font-size: 2rem;
+  }
+  .modal-close {
+    font-size: 2.5rem;
+
+  }
+  .modal-options {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .modal-options .option {
+    width: 90%;
+    align-items: center;
+  }
+  .modal-options .option .geometric-shape {
+    width: 15%;   
+  }
+  .modal-container .button, span {
+    font-size: 1.6rem;
+  }
+  .modal-container {
+    width: 90%;
+  }
+}

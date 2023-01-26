@@ -1,5 +1,5 @@
 <h1 align="center">
-  Calculador de Área
+  Calculador de Área ⏹️
 </h1>
 
 <div align="center">

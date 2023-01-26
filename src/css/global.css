@@ -51,6 +51,7 @@ header {
   padding: 10px;
   transition: background-color 0.2s ease-in-out;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .button span {

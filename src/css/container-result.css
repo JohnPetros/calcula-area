@@ -23,4 +23,5 @@
 .container-result .button {
   width: 65%;
   margin-top: 5px;
+  cursor: pointer;
 }

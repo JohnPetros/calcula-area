@@ -59,7 +59,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias
 ---
 ## 🚀 Deploy
 
-O deploy desse projeto foi realizado através do **[Railway](https://railway.app/)**. Isso implica que você pode acessar o projeto funcionando acessando esse **[link](mentalista-production.up.railway.app/)**
+O deploy desse projeto foi realizado através do **[Railway](https://railway.app/)**. Isso implica que você pode acessar o projeto funcionando acessando esse **[link](calcula-area-production.up.railway.app/)**
 
 ---
 

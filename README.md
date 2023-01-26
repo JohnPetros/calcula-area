@@ -42,6 +42,8 @@ Projeto feito em PHP que calcula a área de 6 figuras geométricas diferentes. A
 ## 📖 Aprendizado
 - Validações de dados em PHP usando funções como is_array, is_numeric, is_bool etc
 - Como arredondar valores usando rand do PHP
+- Como pegar dados da url com PHP usando o método get
+- Como criar modal com JavaScript
 
 ---
 

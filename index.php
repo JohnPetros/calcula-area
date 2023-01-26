@@ -254,7 +254,7 @@ function isValidateValues($values)
 
     <main class="container-content">
         <form class="container-controls" method="GET">
-            <h2>Insira os Valores Abaixo:</h2>
+            <h2>Insira os Valores Abaixo</h2>
             <div class="controls">
                 <?php echo $controls; ?>
             </div>
